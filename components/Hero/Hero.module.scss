@@ -1,0 +1,76 @@
+.goggles {
+  mix-blend-mode: screen;
+  animation: colorRotation infinite 7s linear forwards;
+}
+.whip {
+  mix-blend-mode: screen;
+  animation: colorRotation infinite 8s linear forwards;
+}
+.laserTop {
+  -webkit-mask-image: url(/Images/Noise2.webp);
+  mask-image: url(/Images/Noise2.webp);
+
+  mask-mode: luminance;
+  -webkit-mask-mode: luminance;
+  animation: laserColor1 infinite 30s linear;
+}
+
+@keyframes colorRotation {
+  0% {
+    filter: hue-rotate(-180deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+
+  100% {
+    filter: hue-rotate(-180deg);
+  }
+}
+@keyframes laserColor1 {
+  0% {
+    mask-position: 0 0;
+  }
+
+  50% {
+    mask-position: 225px 0px;
+  }
+
+  100% {
+    mask-position: 450px 0px;
+  }
+}
+
+.neon {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f822ff, 0 0 0.5em #f822ff,
+    0 0 0.1em #f822ff, 0 10px 3px #000;
+  z-index: 2;
+}
+.blink {
+  animation: blink linear infinite 2s;
+}
+
+@keyframes blink {
+  70% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0;
+  }
+  92.5% {
+    opacity: 1;
+  }
+}

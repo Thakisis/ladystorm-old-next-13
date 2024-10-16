@@ -1,0 +1,239 @@
+$hoverEasing: ease-out;
+$returnEasing: ease-in;
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #5d4037;
+  text-align: center;
+}
+
+.cardWrap p {
+  line-height: 1.5em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  pointer-events: none;
+}
+
+.cardwrap h1 + p,
+.cardWrap p + p {
+  margin-top: 10px;
+}
+
+.container {
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardWrap {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 10px;
+  transform: perspective(800px);
+  transform-style: preserve-3d;
+  margin-top: 3rem;
+  cursor: pointer;
+
+  &:hover {
+    .cardInfo {
+      transition: all 1s $returnEasing;
+      transform: translateY(10%);
+    }
+    .cardInfo p {
+      opacity: 1;
+    }
+    .cardInfo,
+    .cardInfo p {
+      transition: all 0.6s $hoverEasing;
+    }
+    .cardInfo:after {
+      transition: all 5s $hoverEasing;
+      opacity: 1;
+      //transform: translateY(0);
+    }
+    .cardBg {
+      transition: 0.6s $hoverEasing, opacity 5s $hoverEasing;
+      opacity: 0.8;
+    }
+    .card {
+      transition: 0.6s $hoverEasing, box-shadow 2s $hoverEasing;
+      box-shadow: rgba(white, 0.2) 0 0 40px 5px, rgba(white, 1) 0 0 0 1px,
+        rgba(black, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+        inset white 0 0 0 6px;
+    }
+  }
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  pointer-events: all;
+  flex: 0 0 240px;
+  width: 320px;
+  height: 476px;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(black, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset rgba(white, 0.5) 0 0 0 6px;
+  transition: all 1s $returnEasing;
+}
+
+.cardBg {
+  opacity: 1;
+  position: absolute;
+  top: -7.5%;
+  left: -7.5%;
+  width: 115%;
+  height: 115%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s $returnEasing, opacity 5s $returnEasing;
+  pointer-events: none;
+}
+
+.cardFg {
+  opacity: 1;
+  position: absolute;
+  top: -2.5%;
+  left: -2.5%;
+  width: 105%;
+  height: 105%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s $returnEasing, opacity 5s $returnEasing;
+  pointer-events: none;
+}
+
+.cardInfo {
+  padding: 20px;
+  position: absolute;
+
+  bottom: -230px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  transform: translateY(40%);
+  transition: all 1s $returnEasing;
+
+  //  width:100%;
+  .card {
+    opacity: 1;
+    text-shadow: rgba(black, 1) 0 2px 3px;
+    transition: 1.6s cubicBezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .cardWrap * {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(#000, 0.6) 100%
+    );
+    background-blend-mode: overlay;
+    opacity: 1;
+    transform: translateY(100%);
+    transition: 1s $returnEasing;
+  }
+}
+
+.cardInfo h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: rgba(black, 0.5) 0 10px 10px, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.offerbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform: translateZ(-20px);
+  scale: 1.1 1.1;
+}
+.offerfg {
+  position: absolute;
+
+  transform-style: preserve-3d;
+}
+
+$clr-neon: hsl(317 100% 54%);
+$clr-bg: hsl(323 21% 16%);
+.neonButton {
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: $clr-neon;
+  border: $clr-neon 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 $clr-neon, 0 0 0.5em 0 $clr-neon;
+
+  position: relative;
+}
+
+.neonButton::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: $clr-neon;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neonButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em $clr-neon;
+  opacity: 0;
+  background-color: $clr-neon;
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neonButton:hover,
+.neonButton:focus {
+  color: white;
+  text-shadow: none;
+}
+
+.neonButton:hover::before,
+.neonButton:focus::before {
+  opacity: 1;
+}
+.neonButton:hover::after,
+.neonButton:focus::after {
+  opacity: 1;
+}

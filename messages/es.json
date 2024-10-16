@@ -1,0 +1,78 @@
+{
+    "menu": {
+        "laser": "Show Laser",
+        "dance": "Baile",
+        "burleska": "Burlesca",
+        "sing": "Cantar",
+        "about": "Acerca de mi"
+    },
+    "Index": {
+        "title": "Home es ",
+        "description": "This is the home page es."
+    },
+    "LocaleSwitcher": {
+        "en": "Ingles",
+        "cs": "Checo",
+        "es": "Español"
+    },
+    "PageLayout": {
+        "pageTitle": "Ladystorm"
+    },
+    "Sections": {
+        "titles": {
+            "dance": "Danza<span>en Vivo</span>",
+            "sing": "Concierto<span>en Directo</span>",
+            "burleska": "Burlesca",
+            "swim": "Chicas<span>en Bañador</span>",
+            "sunshine": "Sunshine<span>Band</span>",
+            "team": "Equipo<span>Ladystorm</span>"
+        },
+        "hero": "Espectáculo de danza con luces y láseres, según la coreografía de la cantante y bailarina Lady Storm. Un show extraordinario en trajes luminosos originales, utilizando máquinas de humo, láseres, hologramas y otros efectos que se destacan especialmente en la oscuridad y agregan excepcionalidad a esta presentación y su experiencia.",
+        "dance": "<p>Con un enfoque en la concepción moderna, el baile es expresivo y ligeramente provocativo. Las actuaciones con hermosos trajes y iluminación añaden originalidad.</p><p> ¿Quieres diseñar tu propio espectáculo? ¿Tu propio baile o estilo? Por qué no, nuestra coreógrafa te aconsejará y te ayudará a prepararlo todo.</p>",
+        "sing": "<p>Lady Storm es una cantante que predominantemente canta géneros como el pop, el dance, la música electrónica, el soul, el rock, el jazz y el blues.</p><p>Interpreta las versiones más grandes de éxitos desde los años 60 hasta la actualidad y trata de adaptarlas a su propio estilo. Ofrece sus actuaciones vocales en trajes originales, brillantes y láseres espectaculares, elegantes y sexy.</p><p> Algunos de ellos se iluminan en la oscuridad, lo que hace que su canto sea aún más único. También puedes escuchar (o pedir) dúos románticos y de baile con sus colegas cantantes del grupo de música de entretenimiento Sunshine band.</p>",
+        "burleska": "<p>Espectáculo de burlesque sensual, emocionante y original que no dejará tus pensamientos tranquilos.</p><p>Nuestra talentosa artista de burlesque cantará y bailará para ti con trajes elegantes, provocativos, brillantes e incluso con luces láser.</p><p>Además, serás parte del espectáculo mientras se desvela la belleza de la burlesque (una hermosa señorita), lo que hará que tu experiencia sea aún más emocionante y única.</p>",
+        "swim": "<p>Un divertido desfile de moda de trajes de baño originales de la colección de la diseñadora Lady Storm, acompañado de música agradable, canto y efectos láser.</p><p>Déjate consentir por las hermosas modelos que te alegrarán la noche con sus trajes originales y movimientos elegantes.</p><p> Las chicas amables y agradables te involucrarán en la trama, te mimarán con bebidas de calidad, golosinas, jugarán con burbujas e incluso con tu imaginación.</p>",
+        "aboutme": "<p>¿Quieres dar un regalo original a tu pareja, familiar, buen amigo o colega?</p><p>¿Quieres tener una despedida de soltero divertida, un viaje de hombres, animar tus cumpleaños, citas, pedida de mano, bodas, fiestas, eventos corporativos, en resumen, divertirte bien?</p><p>Podemos involucrar al homenajeado de manera divertida e inesperada en la actuación, cantarle su canción favorita, entregarle un regalo o un pastel y capturar el momento alegre con fotos de Polaroid que le regalamos de inmediato.</p><p>La agencia Lady Storm le ofrece una experiencia que elige de nuestra amplia oferta. Puede disfrutar de su actuación</p>",
+        "sunshine": "<p>¿Deseas añadir un toque único a tus fiestas, eventos, funciones corporativas, bodas, divorcios, cumpleaños, onomásticos? Simplemente pasa un buen rato en cualquier ocasión.</p><p> Trajes originales, efectos de iluminación, láseres, hologramas. Nuestra alegre y entretenida banda de música, SUNSHINE BAND, espera entretenerlos.</p>"
+    },
+    "offers": {
+        "offerTitle1": "Chica PopRock",
+        "offertext1": "Canciones famosas y melódicas de Pop Rock acompañadas por un keytar, serán interpretadas por una seductora colegiala.",
+        "offerTitle2": "Espectáculo Místico",
+        "offertext2": "Espectáculo místico, encantador y lleno de luz, con danza, efectos de luz y música mística.",
+        "offerTitle3": "Burlesca de Verano",
+        "offertext3": "Te seducirá con su mirada. En la piscina con burbujas y una copa de champán.",
+        "offerTitle4": "Pianista imaginario",
+        "offertext4": "Famosas canciones de jazz acompañadas por un pianista imaginario.",
+        "offerTitle5": "Boxeadora Seductora",
+        "offertext5": "La maestra de la danza boxea con su rival.",
+        "offerTitle6": "Dúos románticos",
+        "offertext6": "Conocidas canciones románticas interpretadas por LadyStorm y Clark.",
+        "offerTitle7": "Matrix",
+        "offertext7": "¿Quieres estar en Matrix por un rato? ¿Dónde nada es imposible? Trinity y Neo te entretendrán con canto, baile, instrumentos musicales y efectos luminosos."
+    },
+    "form": {
+        "fullname": "Nombre completo",
+        "phName": "Escriba su nombre",
+        "errorName": "Campo obligatorio",
+        "email": "Correo electrónico",
+        "phEmail": "Indique un correo válido",
+        "errorEmail": "Dirección de correo inválida",
+        "phone": "Número de teléfono",
+        "phPhone": "Escribe su teléfono",
+        "phError": "El teléfono no es válido",
+        "subject": "Asunto",
+        "phSubject": "Escriba una breve descripción aquí",
+        "errorSubject": "Campo obligatorio",
+        "message": "Mensaje",
+        "phMessage": "Por favor, proporcione su mensaje",
+        "errorMessage": "No se cumple el límite mínimo de 50 caracteres",
+        "submit": "Enviar",
+        "cardText": "Si estás interesado en nuestra actuación o colaborar con nosotros, por favor contáctanos. Esperamos trabajar contigo.",
+        "sending": "<p>Enviando mensaje...</p><p></p><p>Por favor, espera.</p>",
+        "delivered": "<p>Mensaje entregado</p><p></p><p>Gracias por contactarnos. </p><p></p>",
+        "failedDelivery": "<p>Error al entregar el mensaje.</p><p></p>",
+        "back": "Volver",
+        "retry": "Reintentar"
+    }
+}

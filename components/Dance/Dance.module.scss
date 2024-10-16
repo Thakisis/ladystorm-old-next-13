@@ -1,0 +1,36 @@
+$color-neon: #f89422;
+
+.neon {
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-neon,
+    0 0 0.5em $color-neon, 0 0 0.1em $color-neon, 0 10px 3px #000;
+  z-index: 2;
+}
+.blink {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  animation: blink linear infinite 2s;
+}
+
+@keyframes blink {
+  70% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 0;
+  }
+  81% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0;
+  }
+  92.5% {
+    opacity: 1;
+  }
+}

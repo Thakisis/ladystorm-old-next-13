@@ -1,0 +1,78 @@
+{
+    "menu": {
+        "laser": "Laser Show",
+        "dance": "Dance",
+        "burleska": "Burlesque",
+        "sing": "Sing Live",
+        "about": "About Me"
+    },
+    "Index": {
+        "title": "Home",
+        "description": "This is the home page."
+    },
+    "LocaleSwitcher": {
+        "en": "English",
+        "cs": "Czech",
+        "es": "Spanish"
+    },
+    "PageLayout": {
+        "pageTitle": "Ladystorm"
+    },
+    "Sections": {
+        "titles": {
+            "dance": "Dance<span>Show</span>",
+            "sing": "Sing<span>Live</span>",
+            "burleska": "Burlesque",
+            "swim": "Swimsuit<span>Show</span>",
+            "sunshine": "Sunshine<span>Band</span>",
+            "team": "<span>Ladystorm</span>Team"
+        },
+        "hero": "Dance performance with lights and lasers, according to the choreography of singer and dancer Lady Storm. An extraordinary show in original luminous costumes, using fog machines, lasers, holograms and other effects that stand out especially in the dark and add uniqueness to this performance and your experience.",
+        "dance": "<p>With a focus on modern conception, the dance is expressive and slightly provocative. Performances with beautiful costumes and lighting add originality.</p><p>Do you want to design your own show? Your own dance or style? Why not, our choreographer will advise you and help you prepare everything</p>",
+        "sing": "<p>Lady Storm is a singer who predominantly sings genres such as pop, dance, electronic, soul, rock, jazz, and blues.</p><p>She interprets the biggest hit cover versions from the 60s to the present day and tries to adapt them in her own way. She offers her vocal performances in beautiful, elegant, and sexy original, glowing, and laser costumes.</p> <p>Some of them stand out in the dark, making her singing even more unique. You can also listen to (order) romantic, dance duets with her singing colleagues from the entertainment music group Sunshine band.</p>",
+        "burleska": "<p>A sensual, exciting, and original burlesque show that won't leave your thoughts calm.</p><p>Our talented burlesque performer will sing and dance for you in elegant, provocative, shining, and laser costumes.</p><p>You will also be part of the show during the unveiling of the burlesque (a beautiful lady), making your experience even more exciting and unique.</p>",
+        "swim": "<p>A fun fashion show of original swimwear from the collection of designer Lady Storm, accompanied by pleasant music, singing, and laser effects.</p><p>Let yourself be pampered by beautiful models who will brighten up your evening with their original costumes and graceful movements.</p><p> The sweet and pleasant ladies will involve you in the plot, pamper you with quality drinks, treats, play with bubbles, and even with your imagination.</p>",
+        "aboutme": "<p>Do you want to give an original gift to your partner, relative, good friend, colleague?</p><p>Do you want to experience a fun bachelor party, a boys' trip, spice up your birthday, date,proposal, wedding, parties, corporate events, in short, have a good time?</p><p>We can involve the celebrant in a fun and unexpected way in the performance, sing their favorite song, hand them a gift or cake, and capture the happy moment with Polaroid photos as a souvenir, which we will immediately give to them.</p><p>Lady Storm Agency offers you an experience that you can choose from our diverse offer. You can enjoy their performance.</p>",
+        "sunshine": "<p>Do you want to add a unique touch to your parties, events, corporate functions, weddings, divorces, birthdays, name days? Simply have a great time at any occasion.</p><p> Original costumes, lighting effects, lasers, holograms. Our joyful and entertaining music band, SUNSHINE BAND, is looking forward to entertaining you.</p>"
+    },
+    "offers": {
+        "offerTitle1": "Poprock girl",
+        "offertext1": "Famous and melodic pop-rock songs accompanied by a keytar, will be performed by a seductive schoolgirl.",
+        "offerTitle2": "Mystic show",
+        "offertext2": "Mystical, charming, light show. Full of dance, light effects and mystical music.",
+        "offerTitle3": "Summer Bourlesque",
+        "offertext3": "She will seduce you with her eyes. In the pool with bubbles and a glass of champagne.",
+        "offerTitle4": "Imaginary pianist",
+        "offertext4": "Famous jazz songs accompanied by an imaginary pianist.",
+        "offerTitle5": "Seductive Boxing Girl",
+        "offertext5": "Mistress of dance boxing fights with her rival.",
+        "offerTitle6": "Romantic duets",
+        "offertext6": "Well-known romantic duet songs performed by Lady Storm and Clark.",
+        "offerTitle7": "The Matrix",
+        "offertext7": "Do you want to be in the Matrix for a while? Where nothing is impossible? Trinity and Neo will provide entertainment with singing, dancing, musical instruments and glowing effects."
+    },
+    "form": {
+        "fullname": "Full Name",
+        "phName": "Insert your name",
+        "errorName": "Required Field",
+        "email": "Email",
+        "phEmail": "Enter valid email",
+        "errorEmail": "Not valid email address",
+        "phone": "Phone Number",
+        "phPhone": "Indicate Phone number",
+        "errorPhone": "Number is not a valid phone",
+        "subject": "Subject",
+        "phSubject": "Write a short description here",
+        "errorSubject": "Required Field",
+        "message": "Message",
+        "phMessage": "Please provide your message",
+        "errorMessage": "Minimum of 50 character limit not met",
+        "submit": "Submit",
+        "cardText": "If you are interested in our performance or collaboration with us, please contact us. We look forward to working with you.",
+        "sending": "<p>Sending Message...</p> <p>Please wait.</p>",
+        "delivered": "<p>Message Delivered</p><p></p><p>Thank you for contacting us.</p><p> </p>",
+        "failedDelivery": "<p>Error delivering message!</p><p></p> ",
+        "back": "Return",
+        "retry": "Retry"
+    }
+}

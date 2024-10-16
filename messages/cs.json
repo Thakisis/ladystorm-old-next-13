@@ -1,0 +1,79 @@
+{
+    "menu": {
+        "laser": "LASERSHOW",
+        "dance": "TANEC",
+        "burleska": "BURLESKA",
+        "sing": "ŽIVÉ VYSTOUPENÍ",
+        "about": "O MNĚ"
+    },
+    "Index": {
+        "title": "Hom cz",
+        "description": "This is the home page in cs."
+    },
+    "LocaleSwitcher": {
+        "en": "Angličtina",
+        "cs": "Čeština",
+        "es": "Španělština"
+    },
+    "PageLayout": {
+        "pageTitle": "LadyStorm"
+    },
+    "Sections": {
+        "titles": {
+            "dance": "Tanec<span>Show</span>",
+            "sing": "Zpěv",
+            "burleska": "Burleska",
+            "swim": "Plavková<span>Show</span>",
+            "sunshine": "Sunshine<span>Band</span>",
+            "team": "Tým<span>Ladystorm</span>"
+        },
+        "hero": "Taneční světelné a laserové vystoupení dle vlastní choreografie zpěvačky a tanečnice Lady Storm. Nevšední show v originálních svítících kostýmech za použití mlhovače, laseru, hologramu a dalších efektů, které vyniknou hlavně ve tmě a přidají tak vyjímečnosti tomuto vystoupení a Vašemu zážitku.",
+        "dance": "<p>Se zaměřením na moderní pojetí, výrazový i lehce dráždivý tanec. Vystoupení v krásných kostýmech i s osvětlením dodá na originalitě.</p><p> Navrhnout si svoji show? Svůj tanec či styl? Proč ne, naše choreografka Vám poradí a pomůže vše připravit.</p>",
+        "sing": "Lady Storm je zpěvačka, která zpívá: pop, dance, electronic, soul, rock, jazz, blues a další. Interpretuje největší cover hity od 60. let po současnost. Nabízí svá pěvecká vystoupení v krásných, originálních, svítících a laserových kostýmech. Některé z nich vyniknou ve tmě a díky tomu se její zpěv stává originálním ještě více. Můžete si objednat pěvecké vstoupení i s její zábavnou hudební skupinou Sunshine Band.",
+        "burleska": "<p>Smyslná, vzrušující, originální burleska show, která nenechá Vaše představy klidnými. </p><p>Naše talentovaná burleska Vám zazpívá i zatančí v elegantních, dráždivých, svítících i laser kostýmech.</p><p>Sami budete zapojeni do vystoupení při odhalování burlesky (krásné slečny) a tím pro Vás již tak úžasný zážitek nabyde na atraktivnosti a nevšednosti.</p>",
+        "swim": "<p>Zábavná módní přehlídka originálních plavek z kolekce návrhářky Lady Storm, za doprovodu příjemné hudby, zpěvu a laser efektů.</p><p>Nechte se hýčkat krásnými modelkami, které Vám zpříjemní večer originálními kostýmy, ladnými pohyby.</p><p> Milé a příjemné slečny Vás vtáhnou do děje, budou Vás rozmazlovat kvalitním pitím, laskominami, pohrávat si s bublinkami i s Vaší představivostí.</p>",
+        "aboutme": "<p>Chcete dát originální dárek svému partnerovi, příbuznému, dobrému příteli, kolegovi?</p><p>Chcete zažít zábavnou rozlučku se svobodou, pánskou jízdu, zpestřit Vaše narozeniny, rande, žádost o ruku, svatbu, večírky, firemní akce. Zkrátka dobře se bavit?</p><p>Oslavence můžeme zábavnou a nečekanou formou zapojit do vystoupení, zazpívat mu jeho nejoblíbenější píseň, předat dárek nebo dort a na památku zachytit veselý okamžik fotkami z Polaroidu, které mu ihned věnujeme.</p><p>Tým Lady Storm Vám nabízí zážitek, který si vyberete z naši pestré nabídky. Můžete si užít její vystoupení</p>",
+        "sunshine": "<p>Chcete originálně zpestřit Vaše večírky, zábavy, firemní akce, svatby, rozvody, narozeniny, jmeniny. Prostě se dobře bavit při všech příležitostech.</p><p> Originální kostýmy, světelné efekty, lasery, hologram. Naše veselá zábavné hudební skupina SUNSHINE BAND se na Vás těší.</p> "
+    },
+    "offers": {
+        "offerTitle1": "Poprock girl",
+        "offertext1": "Známé a melodické poprockové písně za doprovodu keytar, Vám zazpívá a zahraje svůdná školačka.",
+        "offerTitle2": "Mystická show",
+        "offertext2": "Okouzlující světelná show, plná tance, světelných efektů a mystické hudby.",
+        "offerTitle3": "Letní Burleska",
+        "offertext3": "Bude Vás svádět očima v bazénku s bublinkami a sklenkou šampaňského.",
+        "offerTitle4": "Imaginarní pianista",
+        "offertext4": "Známé jazzové písně za doprovodu imaginárního pianisty",
+        "offerTitle5": "Svůdný box",
+        "offertext5": "Mistryně tanečního boxu se utká se svoji rivalkou",
+        "offerTitle6": "Romantické duety",
+        "offertext6": "Známé romantické duety v podání Lady Storm a Clarka",
+        "offerTitle7": "The Matrix",
+        "offertext7": "Chcete se na chvíli ocitnout v Matrixu? Kde nic není nemožné? Trinity a Neo se postarají o zábavu...zpěvu, tance, hudebních nástrojů i svitících efektů",
+        "text1": "Lady Storm je zpěvačka, která zpívá převážně žánry- pop, dance, electronice, soul, rock, jazz, blues. Interpretuje největší hit cover verze od 60. let po současnost a snaží  se je upravit po svém. Zpěvu se věnuje celý život. Nabízí svá pěvecká vystoupení v krásných, elegantních i sexy originálních, svítících a laserových kostýmech. Některé z nich vyniknou ve tmě a díky tomu se její zpěv stává originálním ještě více. Zpívá v českém, anglickém, italském, španělském a francouzském jazyce. Můžete si  také poslechnout (objednat) romantické, taneční duety s jejími  pěveckými kolegy ze zábavné hudební skupiny Sunshine band."
+    },
+    "form": {
+        "fullname": "Celé jméno",
+        "phName": "Vložte své jméno",
+        "errorName": "povinný údaj",
+        "email": "E-mail",
+        "phEmail": "Zadejte platný e-mail",
+        "errorEmail": "Neplatná e-mailová adresa",
+        "phone": "Telefonní číslo",
+        "phPhone": "Uveďte telefonní číslo",
+        "phError": "Číslo není platné telefonní číslo",
+        "subject": "O co máte zájem?",
+        "phSubject": "Napište zde stručný popis",
+        "errorSubject": "povinný údaj",
+        "message": "Zpráva",
+        "phMessage": "Prosím, napište svou zprávu",
+        "errorMessage": "Nebyl dosažen minimální limit 50 znaků",
+        "submit": "Potvrdit",
+        "cardText": "Pokud máte zájem o naše vystoupení a nebo spolupráci s námi, kontaktujte nás. Těšíme se na spolupráci s Vámi.",
+        "sending": "<p>Odesílání zprávy...</p><p></p><p>Prosím čekejte.</p>",
+        "delivered": "<p>Zpráva doručena</p><p></p><p>Děkujeme za kontaktování nás.</p><p></p>",
+        "failedDelivery": "<p>Chyba při doručování zprávy!</p><p></p>",
+        "back": "Zpět.",
+        "retry": "Zkusit znovu."
+    }
+}
